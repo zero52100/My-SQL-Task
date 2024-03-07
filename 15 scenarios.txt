@@ -1,0 +1,45 @@
+Scenario 1: SELECT All Columns
+SELECT * FROM test.emp;
+
+Scenario 2: SELECT Specific Columns
+SELECT name, age, city FROM test.emp;
+
+Scenario 3: SELECT Distinct Genders
+SELECT DISTINCT gender FROM test.emp;
+
+Scenario 4: WHERE Clause - Retrieve Employees in Mumbai
+SELECT * FROM test.emp WHERE city = 'Mumbai';
+
+Scenario 5: WHERE Clause with AND - Retrieve Female Employees in Delhi
+SELECT * FROM test.emp WHERE gender = 'Female' AND city = 'Delhi';
+
+Scenario 6: WHERE Clause with OR - Retrieve Employees in 'Bangalore' OR 'Chennai'
+SELECT * FROM test.emp WHERE city = 'Bangalore' OR city = 'Chennai';
+
+Scenario 7: WHERE Clause with IN - Retrieve Employees in 'Pune' or 'Hyderabad'
+SELECT * FROM test.emp WHERE city IN ('Pune', 'Hyderabad');
+
+Scenario 8: WHERE Clause with BETWEEN - Retrieve Employees with Salary Between 50000 and 60000
+SELECT * FROM test.emp WHERE salary BETWEEN 50000 AND 60000;
+
+Scenario 9: INSERT - Add a New Employee
+INSERT INTO test.emp VALUES
+(11, 'Raj Kumar', 28, 56000, 'Mumbai', 'Male', 7894561230, 'raj@example.com', '2022');
+
+Scenario 10: UPDATE - Increase Salary for Employees in 'Delhi'
+UPDATE test.emp SET salary = salary * 1.1 WHERE city = 'Delhi';
+
+Scenario 11: DELETE - Remove Employees with Age Less Than 25
+DELETE FROM test.emp WHERE age < 25;
+
+Scenario 12: ORDER BY - Display Employees Ordered by Salary in Descending Order
+SELECT * FROM test.emp ORDER BY salary DESC;
+
+Scenario 13: LIMIT - Display Only Top 5 Employees by Age
+SELECT * FROM test.emp ORDER BY age LIMIT 5;
+
+Scenario 14: GROUP BY - Show Average Salary by City
+SELECT city, AVG(salary) as avg_salary FROM test.emp GROUP BY city;
+
+Scenario 15: HAVING - Show Cities with Average Salary Greater Than 55000
+SELECT city, AVG(salary) as avg_salary FROM test.emp GROUP BY city HAVING AVG(salary) > 
