@@ -1,0 +1,11 @@
+idemp,name,age,salary,city,gender,mobile_number,email,year_of_joining
+1,"Amit Patel",28,58000,Mumbai,Male,7894561230,amit@example.com,2022
+2,"Priya Sharma",26,52000,Delhi,Female,9876543211,priya@example.com,2021
+3,"Rahul Verma",32,65000,Bangalore,Male,5557890123,rahul@example.com,2020
+4,"Neha Gupta",29,60000,Kolkata,Female,1237894560,neha@example.com,2023
+5,"Sandeep Singh",27,54000,Chennai,Male,7890123456,sandeep@example.com,2022
+6,"Kavita Reddy",31,62000,Hyderabad,Female,9876543212,kavita@example.com,2021
+7,"Vikram Kapoor",24,48000,Pune,Male,5557890124,vikram@example.com,2020
+8,"Ananya Desai",33,70000,Ahmedabad,Female,1234567891,ananya@example.com,2023
+9,"Rajesh Kumar",30,59000,Jaipur,Male,9876543213,rajesh@example.com,2021
+10,"Preeti Sharma",28,56000,Lucknow,Female,5557890125,preeti@example.com,2022
